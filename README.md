@@ -27,7 +27,7 @@ projetos_airbnb/
 |__ README.md             # Documentação do projeto
 
 ## Status do Projeto
-Em andament - Ambiente configurado, dataset carregado e próxima etapa: análise exploratória
+Em andamento - Ambiente configurado, dataset carregado e próxima etapa: análise exploratória
 
 ## Aprendizados esperados
 - Prática com banco de dados PostgreSQL;
