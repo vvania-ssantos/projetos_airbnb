@@ -29,7 +29,7 @@ Fonte oficial → [insideairbnb.com/rio-de-janeiro](http://insideairbnb.com/rio-
 6. Recreio e Barra da Tijuca crescem mais rápido (2024→2025)
 7. Entire home/apt = 78% do mercado (quarto privado e shared room são nicho)
 
-(prints dos gráficos vão aqui quando você rodar os notebooks)
+(prints dos gráficos vão aqui quando rodar os notebooks) -- estão em desenvolvimento
 
 ### Estrutura do projeto
 - `data/` → datasets brutos
