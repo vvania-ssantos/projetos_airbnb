@@ -1,0 +1,38 @@
+      neighbourhood       | total_anuncios 
+--------------------------+----------------
+ Copacabana               |          13277
+ Barra da Tijuca          |           3668
+ Ipanema                  |           3661
+ Centro                   |           2240
+ Recreio dos Bandeirantes |           2161
+ Jacarepaguá              |           1882
+ Botafogo                 |           1867
+ Leblon                   |           1851
+ Santa Teresa             |           1484
+ Flamengo                 |            929
+ Camorim                  |            879
+ Leme                     |            871
+ Laranjeiras              |            580
+ São Conrado              |            531
+ Tijuca                   |            436
+(15 rows)
+
+ host_name | total_anuncios 
+-----------+----------------
+ Daniel    |            455
+ Rodrigo   |            410
+ Rafael    |            370
+ Fernanda  |            302
+ Bruno     |            293
+ Felipe    |            293
+ Juliana   |            289
+ Ricardo   |            283
+ Marcelo   |            272
+ Pedro     |            268
+(10 rows)
+
+ ocupacao_media_geral 
+----------------------
+ 47.6%
+(1 row)
+
