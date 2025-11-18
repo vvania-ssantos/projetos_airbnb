@@ -1,44 +1,95 @@
-# Análise Completa de Dados do Airbnb no Rio de Janeiro (2025) 🏖️
+# 📊 Análise de Dados do Airbnb no Rio de Janeiro  
+**Explorando padrões de preços, características dos imóveis e insights de negócio no mercado de aluguel por temporada**
 
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1518639197411-3a9d2c9be1d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Rio de Janeiro" width="100%"/>
-</p>
+---
 
-**Objetivo do projeto**: Entender o mercado de aluguel por temporada no Rio de Janeiro e responder perguntas reais de negócio:
-- Quais bairros geram mais receita?
-- O que faz um anúncio ser mais lucrativo (Superhost, número de fotos, reviews, etc.)?
-- Como está a sazonalidade e ocupação na cidade?
+## 🎯 Objetivo do Projeto
 
-**Dataset**: Inside Airbnb (setembro/outubro 2025)  
-Fonte oficial → [insideairbnb.com/rio-de-janeiro](http://insideairbnb.com/rio-de-janeiro)
+Este projeto analisa dados do Airbnb no Rio de Janeiro com o objetivo de:
 
-### 🚀 Tecnologias usadas
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib/Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git/GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+- Identificar os bairros com as maiores médias de preços.  
+- Entender como características dos anúncios influenciam valor e ocupação.  
+- Gerar visualizações claras e diretas produzidas em Python no Linux.  
+- Demonstrar minha capacidade prática como Analista de Dados: tratamento, análise, visualização e interpretação.
 
-### 📊 Principais Insights (os que mais impressionam em entrevista)
-1. **Copacabana e Ipanema** dominam: juntos representam ~35% dos anúncios e ~45% da receita estimada
-2. **Leblon é o bairro mais caro**: preço médio R$ 1.200/dia (quase 3× a média da cidade)
-3. Superhosts ganham **+28%** em receita média
-4. Imóveis com ≥ 50 fotos e Instant Book ativado têm ocupação **+42%** maior
-5. Alta temporada (dez-fev): preços sobem até **+85%** vs baixa temporada
-6. Recreio e Barra da Tijuca crescem mais rápido (2024→2025)
-7. Entire home/apt = 78% do mercado (quarto privado e shared room são nicho)
+---
 
-(prints dos gráficos vão aqui quando rodar os notebooks) -- estão em desenvolvimento
+## 🛠️ Tecnologias Utilizadas
 
-### Estrutura do projeto
-- `data/` → datasets brutos
-- `notebooks/` → passo a passo da análise
-- `app_streamlit.py` → dashboard interativo (rode com `streamlit run app_streamlit.py`)
+- **Python** (Pandas, Matplotlib, Seaborn)  
+- **PostgreSQL**  
+- **Linux (Ubuntu)**  
+- **Git e GitHub**
 
-Feito com ♥ por Vania dos Santos – em busca da primeira vaga como Analista de Dados (disponível para oportunidades!)
+---
 
-LinkedIn: https://linkedin.com/in/vaniadossantos/
-GitHub: https://github.com/vvania-ssantos
+## 📂 Estrutura do Repositório
+
+projetos_airbnb/
+│
+├── sql/ # Arquivos .sql utilizados para consultas e manipulação dos dados
+├── imagens/ # Gráficos gerados durante a análise (Python)
+├── dados/ # Dataset utilizado (se for permitido disponibilizar)
+└── README.md # Documentação do projeto
+
+## 📊 Visualizações
+
+As visualizações foram geradas diretamente em Python no Linux.
+
+### 🏆 Top 10 Bairros com Diárias Mais Caras
+
+<img src="imagens/top_10_bairros_caros.png" width="650" alt="Top 10 Bairros Caros">
+
+**Insight:**  
+Bairros turísticos — como **Leblon, Ipanema e Copacabana** — concentram os maiores preços médios por diária.  
+Isso confirma o comportamento esperado do mercado: regiões com alta demanda tendem a manter preços elevados e estáveis.
+
+---
+
+## 🔍 Principais Descobertas da Análise
+
+- **Leblon** lidera como o bairro mais caro por diária.  
+- Existem diferenças claras entre bairros turísticos e bairros residenciais.  
+- A distribuição dos preços é assimétrica: poucos anúncios muito caros elevam a média geral.  
+- A maior parte dos anúncios possui faixa de preço intermediária, formando uma concentração central.  
+
+Essas observações são importantes para entender comportamento de oferta, demanda e precificação na plataforma.
+
+---
+
+## 🧹 Etapas do Processamento de Dados
+
+- Importação do dataset.  
+- Limpeza e padronização das colunas.  
+- Remoção de valores inconsistentes.  
+- Agrupamento e cálculo de métricas relevantes.  
+- Criação dos gráficos a partir dos dados tratados.
+
+Tudo desenvolvido diretamente no Linux com Python.
+
+---
+
+## 🚀 Como Reproduzir o Projeto
+
+1. Clone este repositório:
+
+   git clone https://github.com/vvania-ssantos/projetos_airbnb.git
+
+Acesse o diretório:
+cd projetos_airbnb
+
+Instale as dependências (se houver um requirements.txt no futuro):
+pip install -r requirements.txt
+Execute os arquivos Python ou SQL conforme necessário.
+
+👩‍💻 Sobre Mim
+Sou Vania dos Santos, Analista de Dados em formação e apaixonada por resolver problemas através de dados.
+Este projeto faz parte da minha evolução prática, fortalecendo minha capacidade de transformar dados em informação útil, clara e aplicável.
+
+🔗 LinkedIn: https://linkedin.com/in/vaniadossantos
+
+🧠 GitHub: https://github.com/vvania-ssantos
+
+
 
 
